@@ -46,11 +46,8 @@ body {
     width: 100%;
     max-width: 300px;
     height: auto;
-
     padding: 40px;
-    
     background-color: grey;
-    /* box-shadow: inset 0em 0em 1em 0.5em lightgray ; */
 }
 
 .contact_text h1{
@@ -61,6 +58,7 @@ body {
 .contact_text ul{
     padding-left: 2rem;
 }
+
 
 .contact_text a:hover{
     font-style: italic;
@@ -75,17 +73,29 @@ body {
 }
 
 @media (max-width: 800px){
+    body{
+        background: none;
+        box-shadow: none;
+        background-color: #212121;
+    }
+
     .contact{
-        padding-top: 59px;
+        padding: 70px 0px 30px 0px;
     }
 
     .contactmebaby{
         display: flex;
         flex-wrap: wrap;
-        padding-bottom: 25px;
+        box-shadow: none;
+        background-color: #212121;
+    }
+
+    .contact_image{
+        width: 30vh;
     }
 
     .contact_text{
         padding-top: 5px;
+        background-color: #212121;
     }
 }

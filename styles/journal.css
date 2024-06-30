@@ -34,11 +34,14 @@
     width: 100%;
 }
 
+.thepursuitofbuilding p, h1{
+    padding-left: 15px;
+}
+
 .thepursuitofbuilding:hover{
     transform: scale(1.03);
     transition: ease-out.2s;
-    background-color: grey;
-    border-radius: 10px;
+    background-color: #00ADB5;
 }
 
 @media(max-width: 800px){

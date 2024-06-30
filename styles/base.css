@@ -49,11 +49,11 @@ nav a{
 }
 
 nav .exit3{
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 nav a:hover{
-    background-color: grey;
+    background-color: #00ADB5;
     transform: scale(1.03);
     transition: ease-out.2s;
 }
@@ -120,5 +120,10 @@ nav a:hover{
     }
 }
 
+
+form{
+    color: white;
+    padding-top: 20%;
+}
 
 

@@ -18,6 +18,11 @@
 }
 
 
+.layout-latestwork .latestwork:hover{
+    transform: scale(1.03);
+    transition: ease-out.2s;
+}
+
 /* -- -- */
 
 
@@ -59,12 +64,17 @@
     height: auto;
 }
 
+.layout-recentwork .latestwork:hover{
+    transform: scale(1.03);
+    transition: ease-out.2s;
+}
+
 .image__overlay{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 99%;
     background: rgba(0, 0, 0, 0.6);
     color: white;
     display: flex;
